@@ -34,6 +34,11 @@ angular
         controller: 'PortfolioCtrl',
         controllerAs: 'portfolio'
       })
+      .when('/contacto', {
+        templateUrl: 'views/contacto.html',
+        controller: 'ContactoCtrl',
+        controllerAs: 'contacto'
+      })
       .otherwise({
         redirectTo: '/'
       });
