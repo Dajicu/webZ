@@ -39,6 +39,11 @@ angular
         controller: 'ContactoCtrl',
         controllerAs: 'contacto'
       })
+      .when('/simon', {
+        templateUrl: 'views/simon.html',
+        controller: 'SimonCtrl',
+        controllerAs: 'simon'
+      })
       .otherwise({
         redirectTo: '/'
       });

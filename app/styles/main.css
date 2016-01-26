@@ -11,3 +11,147 @@ body{
 	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
 }
 
+.rows{
+	color:#ffffff;
+}
+
+blockquote{
+	border-left: 1px solid #ffffff;
+}
+.navbar{
+	background-color:#000000;
+	border:0px solid black;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color:#5a6b98;
+}
+
+.navbar-brand{
+	color:#ffffff;
+}
+
+/* SIMON GAME START =============================================================================== */
+
+
+		.wrapper{
+ 			position: relative;
+  			width:640px;
+  			margin:0 auto;
+  	
+			}
+		.back{
+  			position: absolute;
+  			top:170px;
+  			width:640px;
+  			height: 640px;
+  			z-index:0;
+  			background-color: #000;
+  			border-radius: 310px;
+  			-webkit-box-shadow: 2px 10px 64px 7px rgba(0,0,0,0.73);
+			-moz-box-shadow: 2px 10px 64px 7px rgba(0,0,0,0.73);
+			box-shadow: 2px 10px 64px 7px rgba(0,0,0,0.73);
+			}
+		.pad {
+  			width: 300px;
+  			height: 300px;
+  			float: left;
+  			z-index: 1;
+  			margin: 10px;
+  			
+			}
+
+		.shape1 {
+  			border-top-left-radius: 300px;
+  			background-color: #006600;
+  			-webkit-box-shadow: inset 2px 10px 64px 7px rgba(0,0,0,1);
+			-moz-box-shadow: inset 2px 10px 64px 7px rgba(0,0,0,1);
+			box-shadow: inset 2px 10px 64px 7px rgba(0,0,0,1);
+			}
+
+		.shape2 {
+  			float: left;
+  			border-top-right-radius: 300px;
+  			background-color: #FF0000;
+  			clear: right;
+  			-webkit-box-shadow: inset 2px 10px 64px 7px rgba(0,0,0,1);
+			-moz-box-shadow: inset 2px 10px 64px 7px rgba(0,0,0,1);
+			box-shadow: inset 2px 10px 64px 7px rgba(0,0,0,1);
+			}
+
+		.shape3 {
+  			float: left;
+  			border-bottom-left-radius: 300px;
+  			background-color:#FFD700;
+  			clear: left;
+  			-webkit-box-shadow: inset 2px 10px 64px 7px rgba(0,0,0,1);
+			-moz-box-shadow: inset 2px 10px 64px 7px rgba(0,0,0,1);
+			box-shadow: inset 2px 10px 64px 7px rgba(0,0,0,1);
+			}
+
+			.shape4 {
+  			float: left;
+  			border-bottom-right-radius: 300px;
+  			background-color: #3300CC;
+  			-webkit-box-shadow: inset 2px 10px 64px 7px rgba(0,0,0,1);
+			-moz-box-shadow: inset 2px 10px 64px 7px rgba(0,0,0,1);
+			box-shadow: inset 2px 10px 64px 7px rgba(0,0,0,1);
+			}
+
+		.circle {
+  			position: absolute;
+  			top: 195px;
+  			left: 195px;
+  			width: 250px;
+  			height: 250px;
+  			background: #000;
+  			border-radius: 125px;
+  			z-index: 1;
+			}
+		#verde:hover{
+			background-color:#00CC00;
+			-webkit-box-shadow: inset 2px 10px 64px 7px rgba(255,255,255,1);
+			-moz-box-shadow: inset 2px 10px 64px 7px rgba(255,255,255,1);
+			box-shadow: inset 2px 10px 64px 7px rgba(255,255,255,1);
+		}
+		#rojo:hover{
+			background-color:#FF6600;
+			-webkit-box-shadow: inset 2px 10px 64px 7px rgba(255,255,255,1);
+			-moz-box-shadow: inset 2px 10px 64px 7px rgba(255,255,255,1);
+			box-shadow: inset 2px 10px 64px 7px rgba(255,255,255,1);	
+		}
+		#amarillo:hover{
+			background-color:#FFFF00;
+			-webkit-box-shadow: inset 2px 10px 64px 7px rgba(255,255,255,1);
+			-moz-box-shadow: inset 2px 10px 64px 7px rgba(255,255,255,1);
+			box-shadow: inset 2px 10px 64px 7px rgba(255,255,255,1);
+		}
+		#azul:hover{
+			background-color:#3366CC;
+			-webkit-box-shadow: inset 2px 10px 64px 7px rgba(255,255,255,1);
+			-moz-box-shadow: inset 2px 10px 64px 7px rgba(255,255,255,1);
+			box-shadow: inset 2px 10px 64px 7px rgba(255,255,255,1);
+		}
+		#titulo{
+			/*border:1px solid black;*/
+			/*background-color:black;*/
+			width:200px;
+			height:50px;
+			text-align:center;
+			color:#ffffff;
+			border-radius:10px;
+		}
+		.centro{
+			margin-top:100px;
+			margin-left:25px;
+		}
+
+		.positioning{
+			position:relative;
+		}
+
+		/* SIMON GAME END ================================================================================================= */

@@ -6,6 +6,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -23,7 +24,7 @@
 
     <!-- Add your site or application content here -->
     <div class="header">
-      <div class="navbar navbar-inverse" role="navigation">
+      <div class="navbar navbar-default" role="navigation">
         <div class="container">
           <div class="navbar-header">
 
@@ -43,6 +44,7 @@
               <li><a href="#/">Inicio</a></li>
               <li><a ng-href="#/sobrenosotros">Sobre Nosotros</a></li>
               <li><a ng-href="#/portfolio">Portfolio</a></li>
+              <li><a ng-href="#/simon">Simon</a></li>
               <li><a ng-href="#/contacto">Contacto</a></li>
             </ul>
           </div>
@@ -95,6 +97,35 @@
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/portfolio.js"></script>
         <script src="scripts/controllers/contacto.js"></script>
+        <script src="scripts/controllers/simon.js"></script>
         <!-- endbuild -->
+        <script>
+            $(document).ready(function(){
+              $("#verde").click(function(){
+                $("#titulo").text("verde");
+                $(".sound1").trigger('play');
+                $("#titulo").css("color","green");
+              })
+              $("#rojo").click(function(){
+                $("#titulo").text("rojo");
+                $(".sound2").trigger('play');
+                $("#titulo").css("color","red");
+              })
+              $("#amarillo").click(function(){
+                $("#titulo").text("amarillo");
+                $(".sound3").trigger('play');
+                $("#titulo").css("color","yellow");
+              })
+              $("#azul").click(function(){
+                $("#titulo").text("azul");
+                $(".sound4").trigger('play');
+                $("#titulo").css("color","blue");
+              })
+      
+      
+        
+            })
+
+        </script>
 </body>
 </html>

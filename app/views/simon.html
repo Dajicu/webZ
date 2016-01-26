@@ -1,0 +1,43 @@
+<div class="wrapper">
+    	<div class="back">
+    
+      		<div class="pad shape1" id="verde" ng-click="play('verde')">
+      			<audio preload="auto" class="sound1" data-pad="1">
+          			<source src="assets/SimonSounds/sounds_01.mp3" type="audio/mpeg"/>
+          			<source src="assets/SimonSounds/sounds_01.ogg" type="audio/ogg"/>
+        		</audio>
+        	</div>
+        	
+			<div class="pad shape2" id="rojo" ng-click="play('rojo')">
+				<audio preload="auto" class="sound2" data-pad="2">
+          			<source src="assets/SimonSounds/sounds_02.mp3" type="audio/mpeg"/>
+          			<source src="assets/SimonSounds/sounds_02.ogg" type="audio/ogg"/>
+        		</audio>
+        	</div>
+        	
+			<div class="pad shape3" id="amarillo" ng-click="play('amarillo')">
+				<audio preload="auto" class="sound3" data-pad="3">
+          			<source src="assets/SimonSounds/sounds_03.mp3" type="audio/mpeg"/>
+          			<source src="assets/SimonSounds/sounds_03.ogg" type="audio/ogg"/>
+        		</audio>
+			</div>
+			
+      		<div class="pad shape4" id="azul" ng-click="play('azul')">
+      			<audio preload="auto" class="sound4" data-pad="4">
+          			<source src="assets/SimonSounds/sounds_04.mp3" type="audio/mpeg"/>
+          			<source src="assets/SimonSounds/sounds_04.ogg" type="audio/ogg"/>
+        	3</audio>
+      		</div>
+      		
+      		
+      		<div class="circle"><h1 class="centro" id="titulo"></h1></div>
+
+      	</div>	
+	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div>
+     <h1>{{title}}</h1>
+     <p style="color:white;">{{colores}}</p>
+     <button class="btn btn-success" ng-click="borrar()">Borrar</button>
+    </div> 	
