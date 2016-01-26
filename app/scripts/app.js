@@ -25,7 +25,7 @@ angular
         controllerAs: 'main'
       })
       .when('/sobrenosotros', {
-        templateUrl: 'views/about.html',
+        templateUrl: 'views/sobrenosotros.html',
         controller: 'SobrenosotrosCtrl',
         controllerAs: 'sobrenosotros'
       })
