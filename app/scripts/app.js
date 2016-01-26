@@ -24,10 +24,10 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/about', {
+      .when('/sobrenosotros', {
         templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+        controller: 'SobrenosotrosCtrl',
+        controllerAs: 'sobrenosotros'
       })
       .when('/portfolio', {
         templateUrl: 'views/portfolio.html',

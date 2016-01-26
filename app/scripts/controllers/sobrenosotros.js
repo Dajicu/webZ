@@ -8,7 +8,7 @@
  * Controller of the webZApp
  */
 angular.module('webZApp')
-  .controller('AboutCtrl', function () {
+  .controller('SobrenosotrosCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
