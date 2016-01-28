@@ -44,6 +44,11 @@ angular
         controller: 'SimonCtrl',
         controllerAs: 'simon'
       })
+      .when('/condicionales', {
+        templateUrl: 'views/condicionales.html',
+        controller: 'CondicionalesCtrl',
+        controllerAs: 'condicionales'
+      })
       .otherwise({
         redirectTo: '/'
       });
